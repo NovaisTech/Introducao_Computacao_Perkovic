@@ -1,4 +1,5 @@
 ============== 1. Calculadora de Médias Acadêmicas =====================
+
 Como você está na Univesp, nada mais útil do que uma ferramenta para calcular suas próprias notas.
 
 Lógica Python: Receber uma lista de notas, aplicar pesos (se houver) e retornar a média final e o status (Aprovado/Exame).
@@ -18,6 +19,8 @@ Lógica Python: Criar uma lista de nomes de jogadores e usar a biblioteca random
 Interface Web: Uma caixa de texto onde você cola a lista de nomes e um botão "Sortear". O resultado aparece em "cards" estilizados com CSS.
 
 Conceito do Cap 2: Listas (list), métodos de lista (como append) e indexação.
+
+
 
 ============== 3. Conversor de Unidades para TI ==========================
 
