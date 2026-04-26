@@ -1,0 +1,1 @@
+# 2.27 Usando a técnica do Exercício 2.26, escreva instruções Python que desenham um losango com 100 pixels de comprimento de lado usando Turtle graphics.

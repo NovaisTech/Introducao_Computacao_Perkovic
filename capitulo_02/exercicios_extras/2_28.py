@@ -1,0 +1,1 @@
+# 2.28 Usando a técnica do Exercício 2.26, escreva instruções Python que desenham um pentágono com 100 pixels de comprimento de lado usando Turtle graphics. Depois faça um hexágono, um heptágono e um octógono.

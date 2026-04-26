@@ -1,0 +1,2 @@
+# 2.29 Usando a técnica do Exercício 2.26, escreva instruções Python que desenham os círculos sobrepostos com raio de 100 pixels, mostrados a seguir, usando o Turtle graphics:
+# Os tamanhos dos círculos não importam; seus centros deverão ser, mais ou menos, os pontos de um triângulo equilátero.
