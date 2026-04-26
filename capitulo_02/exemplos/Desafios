@@ -1,0 +1,26 @@
+1. Calculadora de Médias Acadêmicas
+Como você está na Univesp, nada mais útil do que uma ferramenta para calcular suas próprias notas.
+
+Lógica Python: Receber uma lista de notas, aplicar pesos (se houver) e retornar a média final e o status (Aprovado/Exame).
+
+Interface Web: Um formulário simples em HTML para digitar as notas e um CSS básico para exibir o resultado em cores (verde para aprovado, vermelho para reprovado).
+
+Conceito do Cap 2: Manipulação de números (float), operadores aritméticos e listas.
+
+2. Gerador de Escala para o "D'omingos" (Versão Web)
+Aproveitando seu interesse em organizar as peladas de domingo, você pode criar uma interface para o sorteio de times.
+
+Lógica Python: Criar uma lista de nomes de jogadores e usar a biblioteca random para embaralhar e dividir essa lista em dois ou três grupos.
+
+Interface Web: Uma caixa de texto onde você cola a lista de nomes e um botão "Sortear". O resultado aparece em "cards" estilizados com CSS.
+
+Conceito do Cap 2: Listas (list), métodos de lista (como append) e indexação.
+
+3. Conversor de Unidades para TI
+Um utilitário para o seu dia a dia no suporte técnico ou nos estudos de engenharia.
+
+Lógica Python: Funções simples que convertem Gigabytes para Megabytes, ou Decimal para Binário.
+
+Interface Web: Um menu lateral (sidebar) com as opções de conversão e um campo central para o cálculo.
+
+Conceito do Cap 2: Variáveis, tipos de dados (int, str) e operações matemáticas.
