@@ -1,65 +1,16 @@
-import turtle 
-import time
+# ===========================   Listas: ====================================== 
 
-# Turtle graphics, permite que um usuário desenhe linhas e formas de um modo semelhante ao uso de uma caneta sobre o papel
+# ------------------ Problema Prático 2.6 -------------------------------
 
-s = turtle.Screen() # objeto screen
-t = turtle.Turtle() # objeto para iniciar a caneta nas coordenadas(0,0)
-u = turtle.Turtle()
-r = turtle.Turtle()
-s.bgcolor("Blue")
-t.color("yellow")
-u.color("gray")
-r.color("white")
+# Primeiro, execute a atribuição, depois  escreva duas expressões Python que são avaliadas, respectivamente,
+# como a primeiro e a última palavras em palavras, na ordem do dicionário.
 
-t.forward(100)  
-t.left(45)
-t.forward(100)       # métodos que dão direção as canetas u e 
-t.right(90)
-t.forward(100)
+palavras = ['taco', 'bola', 'celeiro', 'cesta', 'peteca']
+palavras.sort() # A lista 'palavras' agora está organizada internamente
+print(palavras) # Imprime a lista já organizada
 
-u.forward(-100)
-u.right(45)
-u.forward(-100)
-u.left(90)
-u.forward(-100)
-
-r.goto(0,-180)
-r.circle(150)
-
-# -----  Desenhando uma face sorridente com a tartaruga --------
-
-l = turtle.Turtle()
-l.pensize(3)
-
-x = -120    # definindo as coordenadas iniciais de x e y.
-y = 120
-# l.goto(x,y)
-# l.undo() 
-
-l.penup()
-l.goto(x, y)
-l.pendown()
-l.circle(100)
-
-l.penup()
-l.goto(x - 35, y + 120)
-l.pendown()
-l.dot(25)
-
-l.penup()
-l.goto(x + 35, y + 120)
-l.pendown()
-l.dot(25)
-
-l.penup()
-l.goto(x - 60.62, y+ 65)
-l.pendown()
-l.setheading(-60)
-l.circle(70, 120)
+print(sorted(palavras)) # Isso funciona porque sorted() retorna a nova lista
 
 
-time.sleep(2)
-s.clear()
 
 

@@ -1,69 +1,61 @@
-# 2.2 Strings: 
-# Explora a manipulação de texto, incluindo concatenação, replicação e indexação.
-# Os exercícios desafiam o aluno a extrair partes específicas de uma frase.
-# -------------------------------------------//-------------------------------------------------#
+#========================================================================================================
+
+# -----------------------Problema Prático 2.2------------------------------#
+
+#Traduza os comandos a seguir para expressões Booleanas em Python e avalie-as:
+
+# A soma de 2 e 2 é menor que 4.
+soma = 2 + 2 
+print(f"A soma de 2 e 2 é menor que 4",soma > 4)
+print("*********************************************************************")
+
+# O valor de 7 // 3 é igual a 1 + 1.
+   # Nesse problema quer saber se a quantidade de vezes que o número 3 cabe no 7 será igual a soma 1 + 1
+
+print("A quantidade de vezes que o número 3 cabe no é igual a 1 + 1",7//3 == 1 + 1)
+print("*********************************************************************")
+
+# A soma de 3 ao quadrado e 4 ao quadrado é igual a 25.
+soma_Quadrado = 3 **2 + 4 ** 2
+
+if soma_Quadrado == 25:
+    print("A soma de 3² + 4² é igual a 25") 
+else:
+    print("Os valores são")    
+print("*********************************************************************")
+# A soma de 2, 4 e 6 é maior que 12.
+
+numeros = 2, 4, 6
+print("A soma dos núumeros 2,4 e 6 é maiors que 12", sum(numeros) > 12)
+if sum(numeros) > 12:
+    print(" soma maior que 12")
+elif sum(numeros) == 12:
+    print("Os valores são iguais!")
+else:
+    print("A soma é menor que 12")        
+print("*********************************************************************")
+
+# 1387 é divisível por 19.
+
+n_divisivel = 1387 / 19
+print("Divisão de 1387 por 19 =",n_divisivel)
 
 
-#================================================================================================
-#------------------------------Problema Prático 2.4-------------------------------------#
 
-#Comece executando as instruções de atribuição:
+print("*********************************************************************")
+# 31 é par. (Dica: o que o resto lhe diz quando você divide por 2?)
 
-s1 = 'ant'
-
-s2 = 'bat'
-
-s3 = 'cod'
-
-# Escreva expressões Python usando s1, s2 e s3 e os operadores + e * a fim de avaliar para:
-
-# (a)'ant bat cod'
-
-print(s1 + ' ' + s2  + ' ' + s3)
-
-# (b)  'ant ant ant ant ant ant ant ant ant ant'
-
-print((s1 +' ')*  10)
-
-# (c)   'ant bat bat cod cod cod'
-
-print(s1 + ' ' + s2 + ' ' + s2 + ' ' + s3 + ' ' + s3 + ' ' + s3)
-
-print(s1 + ' ' + (s2 + ' ') * 2  + (s3 + ' ' ) * 3)
-
-# (d)'ant bat ant bat ant bat ant bat ant bat ant bat ant bat'
-
-print((s1 + ' ' + s2 + ' ') * 7)
-
-# (e)'batbatcod batbatcod batbatcod batbatcod batbatcod'
-
-print((s2 + s2 + s3 + ' ') * 3  )
+print(31 % 2 == 0) 
 
 
-#================================================================================================
-#                         Operador de Indexação []
+print("*********************************************************************")
+# O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 30,00.*
 
-# ------------------  Problema Prático 2.5 ---------------------------------------#
-# Comece executando a atribuição:
-s = '0123456789'
-# Agora, escreva expressões usando a string s e o operador de indexação que é avaliado como:
+lista_precos = [34.99, 29.95, 31.50]
+print("Saber se o menor número da lista de preços é menor que R$30 )", min(lista_precos) < 30.00)
 
-# (a)'0'
-print(s[0])
-print(s[-10])
+print("*********************************************************************")
 
-# (b)'1'
-print(s[1])
-print(s[-9])
 
-# (c)'6'
-print(s[6])
-print(s[-4])
 
-# (d)'8'
-print(s[8])
-print(s[-2])
 
-# (e)'9
-print(s[9])
-print(s[-1])

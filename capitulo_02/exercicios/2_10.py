@@ -42,3 +42,17 @@ print(f"O ponto de ({x}, {y}) está dentro do círculo {dentroCirculo}")
 print(math.pi) 
 
 print(math.e)
+
+# ----------------- Módulo fractions -----------------------------
+
+# O tipo Fraction é usado para representar frações e realizar aritmética racional
+import fractions
+
+a = fractions.Fraction(3,4)
+b = fractions.Fraction(1,2)
+
+c = a * b
+d = a + b
+e = a - b
+
+print(c,d,e)

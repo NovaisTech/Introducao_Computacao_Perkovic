@@ -15,4 +15,10 @@ print(4 // 2 + 4 % 22) # tipo Int retorno 6
 
 
 # (d)2 + 3 == 4 or 5 >= 5
-print(2 + 3 == 4 or 5 >= 5) # tipo boolean retorno True
+print(2 + 3 == 4 or 5 >= 5) # tipo boolean retorno True  ]
+
+
+
+
+
+

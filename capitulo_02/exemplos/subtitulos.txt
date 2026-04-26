@@ -1,0 +1,37 @@
+
+
+# 2.1Expressões, Variáveis e Atribuições
+# Vamos começar com algo familiar. Usamos o shell interativo do IDE Python como uma calculadora para avaliar expressões Python,
+# começando com expressões algébricas simples. Nosso objetivo é ilustrar o modo como Python é intuitiva e normalmente se comporta da forma como você poderia esperar.
+# -------------------------------------------//-------------------------------------------------#
+
+# 2.2 Strings: 
+# Explora a manipulação de texto, incluindo concatenação, replicação e indexação.
+# Os exercícios desafiam o aluno a extrair partes específicas de uma frase.
+# -------------------------------------------//-------------------------------------------------#
+
+
+# 2.3Listas
+# Em muitas situações, organizamos os dados em uma lista: uma lista de compras, uma lista de cursos,
+# uma lista de contatos no seu telefone celular, uma lista de canções no seu player de áudio e assim por diante.
+# Em Python, as listas normalmente são armazenadas em um tipo de objeto denominado lista.
+# Uma lista é uma sequência de objetos. Os objetos podem ser de qualquer tipo: números, strings e até mesmo outras listas.
+# -------------------------------------------//-------------------------------------------------#
+
+
+# 2.4 Objetos e Classes:
+# Aborda a teoria por trás do Python, onde "tudo é um objeto".
+# Os exercícios começam a introduzir o conceito de métodos (funções que pertencem a um objeto).
+# -------------------------------------------//-------------------------------------------------#
+
+
+
+
+# 2.5 Biblioteca Padrão Python:
+# Apresenta módulos embutidos que expandem as capacidades da linguagem sem precisar instalar nada extra.
+# -------------------------------------------//-------------------------------------------------#
+
+
+
+
+

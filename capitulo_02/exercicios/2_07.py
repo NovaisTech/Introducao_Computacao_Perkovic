@@ -20,4 +20,23 @@ notas.sort() # Classifica a lista
 print(notas)
 
 # (e)Uma expressão que avalia para a média das notas.
-print(sum(notas) / 9 )
+print(sum(notas) / 9 ) 
+
+# ==============================================================
+
+# Dada a lista de nomes 
+s = ['Sara', 'Chen', 'Jake', 'Anne']
+#escreva expressões para:
+
+# Verificar se 'Jake' está na lista.
+print('Jake' in s)
+# Adicionar 'Tariq' ao final da lista.
+s.append('Tariq')
+print(s)
+
+# Encontrar o índice de 'Chen'.
+print(s[1])
+
+# Remover o primeiro elemento.
+s.remove('Sara')
+print(s)
