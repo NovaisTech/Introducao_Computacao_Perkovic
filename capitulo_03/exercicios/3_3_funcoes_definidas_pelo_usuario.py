@@ -1,29 +1,25 @@
-#====================== Problema Prático 3.8  ============================
+# ============================   Problema Prático 3.3     ==========================================
+# ==================================================================================================
+# Traduza estas declarações em instruções if/else do Python:
 
-# Defina, diretamente no shell interativo, a função média(),
-# que aceita dois números como entrada e retorna a média dos números. 
-# Um exemplo de uso é:
+# (a) Se ano é divisível por 4, exiba 'Pode ser um ano bissexto.'; caso contrário, exiba 'Definitivamente não é um ano bissexto.'
 
-def media(a, b):
-    return(a + b) / 2
+ano = eval(input("Digite em que ano estamos para saber se é Bissexto: ")) # inpute que pergunta para o usuário digitar que ano ele quer sabe se pode ser bissexto
 
-resultado = media(2, 3.5)
-print(f"A média {resultado}")
-# >>> average(2, 3.5)
-# 2.75
+if ano % 4 == 0:
+    print("Pode ser ano bissexto! ")
+else:
+    print("Definitivamente não é ano bissexto!")
 
+# (b) Se a lista bilhete é igual à lista loteria, exiba 'Você ganhou!'; se não, exiba 'Melhor sorte da próxima vez…'.
 
-# ====================  Problema Prático 3.9  =====================
+bilhete = [50, 10, 42, 22, 35]
+loteria = [10, 22, 35, 42, 50]
 
-# Implemente a função perímetro(), que aceita, como entrada,# o raio de um círculo (um número não negativo) 
-# e retorna o perímetro do círculo. # Você deverá escrever sua implementação em um módulo chamado perímetro.py.
-# Um exemplo de uso é:
-
-# >>> perimeter(1)
-# 6.283185307179586
-import math  # aqui está sendo usado a biblioteca math pra cálculo mais preciso
-def perimetro(r):
-    return(2 * math.pi * r)
-
-perCirculo = perimetro(10)
-print(f"O perímetro da circuferência é {perCirculo:.2f}")
+# sorted() organiza os números do menor para o maior antes de comparar
+if sorted(bilhete) == sorted(loteria):
+    print('Você ganhou!')
+else:
+    print('Melhor sorte da próxima vez...')
+    
+    
