@@ -1,8 +1,7 @@
 import turtle 
 import time
 
-# Agora que o arquivo não se chama mais turtle.py, 
-# o 'import turtle' vai buscar a biblioteca correta do Python.
+
 
 s = turtle.Screen() 
 t = turtle.Turtle() 
