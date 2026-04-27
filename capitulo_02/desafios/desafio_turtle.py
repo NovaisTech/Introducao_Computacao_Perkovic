@@ -1,8 +1,6 @@
 import turtle 
 import time
 
-
-
 s = turtle.Screen() 
 t = turtle.Turtle() 
 u = turtle.Turtle()
