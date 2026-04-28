@@ -4,6 +4,15 @@
 print("A soma de 16 e -9 é menor que 10", 16- 9 <=10)
 
 #(b) O comprimento da lista inventário é mais de cinco vezes o comprimento da string nomecompleto.
+inventario = ['papel', 'grampos', 'lápis']
+nomecompleto = "John Fitzfgerald Kennedy"
+resultado = len(inventario) > 5 * len(nomecompleto)
+
+
+print(f" O comprimento de inventário é: {len(inventario)}")
+print(f" O comprimento de nomecompleto é : {len(nomecompleto)}")
+print(f"É a lista inventário é mais de cinco vezes o comprimento da string nomecompleto?", resultado)
+
 
 #(c) c não é maior que 24.
 
