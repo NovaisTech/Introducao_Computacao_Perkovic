@@ -10,5 +10,5 @@ import math  # aqui está sendo usado a biblioteca math pra cálculo mais precis
 def perimetro(r):
     return(2 * math.pi * r)
 
-perCirculo = perimetro(10)
+perCirculo = perimetro(8) # variação de valores
 print(f"O perímetro da circuferência é {perCirculo:.2f}")
