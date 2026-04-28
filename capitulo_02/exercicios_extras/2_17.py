@@ -9,8 +9,8 @@ nomecompleto = "John Fitzfgerald Kennedy"
 resultado = len(inventario) > 5 * len(nomecompleto)
 
 
-print(f" O comprimento de inventário é: {len(inventario)}")
-print(f" O comprimento de nomecompleto é : {len(nomecompleto)}")
+print(f"O comprimento de inventário é: {len(inventario)}")
+print(f"O comprimento de nomecompleto é : {len(nomecompleto)}")
 print(f"É a lista inventário é mais de cinco vezes o comprimento da string nomecompleto?", resultado)
 
 
