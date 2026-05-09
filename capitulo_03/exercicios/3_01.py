@@ -11,3 +11,13 @@ tempFahrenheit = eval(input("Digite a temperatura em Fahrenheit: "))
 print(f"A temperatura de {tempFahrenheit} em Fahrenheit convertida pra Celsius é igual a:")
 tempCelsius = (5 / 9 * (tempFahrenheit - 32))
 print(f"{tempCelsius:.1f}°C")
+
+
+if tempCelsius >= 35:  
+    print("Está quente!")
+    print("Beba muita líquido!")
+
+else:
+    print(f"Aproveire o dia a temperatura está {tempCelsius:.1f}")
+
+print("Adeus")
