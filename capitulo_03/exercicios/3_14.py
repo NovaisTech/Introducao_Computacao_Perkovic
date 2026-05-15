@@ -18,5 +18,11 @@ def trocaPU(lista): # identificamos o índice e fazemos a troca simutânea
 ingredientes = ['farinha',' açucar', 'manteiga', 'maçãs'] #nossa lista
 
 trocaPU(ingredientes) # Chama a função pra executar a troca simultânea
-
 print(ingredientes) # Imprime resultado
+
+
+# Outro exemplo com a mesma função
+itens = ['casa', 'masão', 'barraco', 'hotel']
+
+trocaPU(itens)
+print(itens)
