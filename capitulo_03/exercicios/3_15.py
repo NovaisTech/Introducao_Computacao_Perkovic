@@ -8,7 +8,7 @@
 
 # >>> t = turtle.Turtle()
 
-# >>> olimpíadas(t)
+# >>> olimpíadas(t)] 
 
 import turtle
 
