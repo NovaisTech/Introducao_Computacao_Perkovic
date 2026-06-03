@@ -33,7 +33,7 @@ print('{0}:{1}:{2}'.format(hora, minuto, segundo))
 # print("{:8.4}".format(1000 / 3))   
 # print((1000 / 3))     
 
-n = 10
+#n = 10
 
 # print("{:b}".format(n)) # mostra o numero em binário
 # print("{:c}".format(n)) # mostra o caractere Unicode ao valor interio
@@ -58,9 +58,9 @@ n = 10
 #     print("{:3}{:6}{:6}{:6}".format( i, i**2, i**3, 2*i))
     
     
-def taxaCrescimento(n):
-    print("i  i**2  i**3 2**i") 
-    format_str ="{0:2d}{1:6d}{2:6d}{3:6d}"
-    for i in range(2, n+1):
-        print(format_str.format(i, i**2, i**3, 2**i))   
-taxaCrescimento(12)      
+# def taxaCrescimento(n):
+#     print("i  i**2  i**3 2**i") 
+#     format_str ="{0:2d}{1:6d}{2:6d}{3:6d}"
+#     for i in range(2, n+1):
+#         print(format_str.format(i, i**2, i**3, 2**i))   
+# taxaCrescimento(12)      
