@@ -11,3 +11,4 @@ print(diasemana+', '+str(dia)+' de ' +mês+ ',' +str(ano)
 +' às '+str(hora)+ ' : '+str(minuto)+':'+str(segundo))
 
 print('{0}:{1}:{2}'.format(hora, minuto, segundo))
+
