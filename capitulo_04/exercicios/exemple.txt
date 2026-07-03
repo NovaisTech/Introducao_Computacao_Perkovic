@@ -1,0 +1,8 @@
+Olá tudo bem com voc^hoje praticando muito python ?
+
+This is the first line.
+Here is another line.
+And a third line.
+This line is the last one.
+
+

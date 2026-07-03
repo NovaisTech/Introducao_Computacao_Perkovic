@@ -21,3 +21,8 @@ estado = 'AS'   #{5}
 codPostal = '09876'  #{6}
 
 print('{0} {1}\n{3} {2}\n{4}, {5} {6}'.format(primeiro, último,rua, número, cidade, estado, codPostal))
+  
+  
+objeto = 'Fone'
+
+print('{}'.format(objeto))
