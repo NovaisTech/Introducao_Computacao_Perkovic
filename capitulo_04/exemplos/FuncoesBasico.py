@@ -85,5 +85,6 @@ print(saudacao_personalizada("Fábio"))
 # # A função deve retornar o valor final com o desconto aplicado.  
 def calcular_desconto(valor_produto):
        desconto = valor_produto * 0.9
+       
        return f"O valor do produto com desconto de 10 % é igual {desconto}"
 print(calcular_desconto(59))       
