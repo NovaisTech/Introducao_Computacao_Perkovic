@@ -1,4 +1,4 @@
-# Problema Prático 4.7
+# ============================================# Problema Prático 4.7============================
 
 # Escreva a função stringCount() que aceita duas entradas de string 
 # — um nome de arquivo e uma string de alvo — e retorna o número de ocorrências da string alvo no arquivo.
@@ -28,3 +28,4 @@ def stringCount(nome_arquivo, string_alvo):
 # --- COMO CHAMAR A FUNÇÃO NO SEU SCRIPT --- 
 resultado = stringCount("exemple.txt", "line")
 print(resultado)
+
